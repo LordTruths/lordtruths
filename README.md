@@ -1,54 +1,102 @@
-<header>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LordTruths | Portafolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #263238, #37474F);
+      color: #FFFFFF;
+      margin: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      padding: 40px 0;
+    }
+    header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0;
+    }
+    .tagline {
+      font-style: italic;
+      color: #90CAF9;
+      margin-top: 5px;
+    }
+    section {
+      margin-top: 40px;
+    }
+    h2 {
+      border-bottom: 1px solid #90CAF9;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    p, li {
+      line-height: 1.6;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      font-style: italic;
+      color: #B0BEC5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="https://cdn.discordapp.com/attachments/1353609023739662376/1362155801854087419/LordAvatar2.png?ex=68015df2&is=68000c72&hm=691409230510239c7a984282db2e937371aa2e2aa410535ba0d34a0ad4cb70ae&" alt="LordTruths Logo">
+      <h1>LordTruths</h1>
+      <div class="tagline">"Unjumpe/SeñorVerdades"</div>
+    </header>
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+    <section>
+      <h2>Biografía</h2>
+      <p><strong>¡Hola!</strong> Mi nombre es <strong>David Andres Sanchez Vuelvas</strong>, nací en 2009, un 18 de octubre, en Oslo, Noruega, y actualmente resido en Quibdó, Chocó, Colombia. Soy un jugador de Minecraft semi-competitivo y estudio ciberseguridad, especializándome en hacking ético y pentesting. Tengo experiencia como desarrollador autónomo. Si deseas adquirir alguno de mis servicios, comunícate conmigo vía Discord: <strong>lordtruths</strong>.</p>
+    </section>
 
-# GitHub Pages
+    <section>
+      <h2>Servicios</h2>
+      <ul>
+        <li><strong>Desarrollo Web:</strong> Sitios modernos y funcionales. Desde $5 USD.</li>
+        <li><strong>Desarrollo de Software:</strong> Soluciones personalizadas y automatizadas. Desde $5 USD.</li>
+        <li><strong>Bots para Discord:</strong> Bots personalizados con funciones avanzadas. Desde $5 USD.</li>
+        <li>
+          <strong>SS MANAGER – Gestión y Mantenimiento:</strong><br>
+          Encargado de la gestión del equipo administrativo de (ScreenShare), soporte técnico y mantenimiento general del sistema.<br>
+          Precio: $30 USD mensuales.
+        </li>
+      </ul>
+    </section>
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+    <section>
+      <h2>Contacto</h2>
+      <p><strong>Discord:</strong> lordtruths</p>
+      <p><strong>Correo:</strong> negocioslordtruths@gmail.com</p>
+    </section>
 
-</header>
-
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
-
-## Step 1: Enable GitHub Pages
-
-_Welcome to GitHub Pages and Jekyll :tada:!_
-
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
-
-### :keyboard: Activity: Enable GitHub Pages
-
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+    <footer>
+      "Nací pa’ joder sistemas, no pa’ seguirlos. – LordTruths
+    </footer>
+  </div>
+</body>
+</html>
